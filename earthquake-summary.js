@@ -28,7 +28,7 @@ formEl.addEventListener('submit', function (e) {
   const stateEl = document.getElementById('state');
   const zipcodeEl = document.getElementById('zipcode');
   const BASE_URL_Zip = 'http://api.positionstack.com/v1/forward'
-  const API_KEY_Zip = '3048ee1b331b060f85d5005ca6e4d50c'
+
   const street = streetEl.value;
   const city = cityEl.value;
   const state = stateEl.value;
